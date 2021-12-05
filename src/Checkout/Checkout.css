@@ -1,0 +1,9 @@
+.checkout {
+	display: flex;
+	align-items: start;
+	padding: 1rem;
+}
+
+.item-block {
+	flex: 1;
+}

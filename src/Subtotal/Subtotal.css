@@ -1,0 +1,17 @@
+.subtotal-block {
+	width: 25rem;
+	font-weight: 600;
+	background: #f7f7f7;
+	padding: 1rem;
+	border: 1px solid #e1e1e1;
+}
+
+.subtotal-block > div {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn-primary {
+	width: 100%;
+	margin-top: 1rem;
+}

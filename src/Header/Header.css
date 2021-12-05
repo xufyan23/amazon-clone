@@ -1,0 +1,61 @@
+.navbar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	gap: 35px;
+	align-items: center;
+	background: #131921;
+	padding: 0.3rem 0.82rem;
+	z-index: 100;
+}
+.navbar .navbar-brand {
+	margin-top: 10px;
+}
+.navbar .navbar-brand svg {
+	width: 100px;
+}
+
+.navbar .navbar-nav .nav-link {
+	color: #ffffff !important;
+}
+
+.nav-right {
+	display: flex;
+	gap: 20px;
+	color: #ffffff;
+}
+
+form {
+	flex: 1;
+	position: relative;
+}
+
+form .search {
+	position: absolute;
+	top: 0;
+	right: -13px;
+	background: #febd69;
+	padding: 0.38rem 0.8rem;
+	border-radius: 0 4px 4px 0;
+}
+
+form .search svg {
+	width: 20px;
+}
+
+.cart svg {
+	width: 30px;
+}
+
+.cart {
+	position: relative;
+	align-self: center;
+}
+
+.cart .counter {
+	position: absolute;
+	top: -1px;
+	/* color: #f90; */
+	font-weight: 800;
+	right: 10px;
+}

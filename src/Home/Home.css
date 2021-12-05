@@ -1,0 +1,8 @@
+.home-banner {
+	background-image: linear-gradient(to right, black 40%, transparent 58%),
+	url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_ROW_Muti-title_Mag1._CB1564087979_.jpg');
+	background-position: right top;
+	height: 500px;
+	    /* z-index: -1;
+	    margin-bottom: -150px; */
+}
